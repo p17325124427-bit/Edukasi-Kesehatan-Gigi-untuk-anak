@@ -123,7 +123,11 @@ export default function App() {
     setScreen('level-1');
   };
 
-  const handleGoHome = () => {
+  const handleGoHome = async () => {
+    await saveScore({
+  nama: player || "Pemain",
+  skor: score
+});
     setScore(0);
     setLives(3);
     setCompletedLevels([]);
