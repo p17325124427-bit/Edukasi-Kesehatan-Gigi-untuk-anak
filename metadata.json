@@ -1,0 +1,6 @@
+{
+  "name": "Pahlawan Gigi: Petualangan Menyelamatkan Gigi",
+  "description": "Game edukasi interaktif kesehatan gigi untuk anak SD. Selamatkan gigi dari monster karies dengan petualangan seru dan edukatif!",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
