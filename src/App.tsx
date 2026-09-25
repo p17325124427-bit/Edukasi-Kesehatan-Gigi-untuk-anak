@@ -12,6 +12,7 @@ import { Level3SikatGigi } from './components/levels/Level3SikatGigi';
 import { Level4WaktuDurasi } from './components/levels/Level4WaktuDurasi';
 import { Level5DetektifGigi } from './components/levels/Level5DetektifGigi';
 import { VictoryScreen } from './components/levels/VictoryScreen';
+import { saveScore } from "./saveScore";
 
 export default function App() {
   const [screen, setScreen] = useState<GameScreen>('cover');
