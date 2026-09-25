@@ -125,7 +125,7 @@ export default function App() {
 
   const handleGoHome = async () => {
     await saveScore({
-  nama: player || "Pemain",
+  nama: player?.name || "Pemain",
   skor: score
 });
     setScore(0);
